@@ -5,7 +5,7 @@
 #SBATCH --get-user-env 
 #SBATCH --clusters=mpp2
 #SBATCH --nodes=1-1 
-#SBATCH --cpus-per-task=28 
+#SBATCH --cpus-per-task=12 
 #SBATCH --mail-type=end 
 #SBATCH --mem=2gb 
 #SBATCH --mail-user=til.birnstie@lmu.de
@@ -14,5 +14,5 @@
 
 source /etc/profile.d/modules.sh
 module load gcc	
-export OMP_NUM_THREADS=28
+export OMP_NUM_THREADS=12
 python model.py
