@@ -8,7 +8,7 @@
 #SBATCH --cpus-per-task=12 
 #SBATCH --mail-type=end 
 #SBATCH --mem=2gb 
-#SBATCH --mail-user=til.birnstie@lmu.de
+#SBATCH --mail-user=til.birnstiel@lmu.de
 #SBATCH --export=NONE 
 #SBATCH --time=24:00:00
 
