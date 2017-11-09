@@ -10,13 +10,12 @@ For this test, I used the `standard` example model and the commit f7016d0. The o
 
 	       JobID    JobName    CPUTime    Elapsed 
 	------------ ---------- ---------- ---------- 
-	421124       dpy_paral+ 3-15:37:56   03:07:47 
-	421124.batch      batch 3-15:37:56   03:07:47 
+	421206       dpy_paral+ 1-19:31:28   01:33:16 
+	421206.batch      batch 1-19:31:28   01:33:16 
 
 ## Serial run
 
 	       JobID    JobName    CPUTime    Elapsed 
 	------------ ---------- ---------- ---------- 
-	6085124      dustpy_se+   02:13:53   02:13:53 
-	6085124.bat+      batch   02:13:53   02:13:53 
-
+	6087463      dustpy_se+   02:14:55   02:14:55 
+	6087463.bat+      batch   02:14:55   02:14:55
