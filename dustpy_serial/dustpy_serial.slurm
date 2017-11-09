@@ -10,7 +10,10 @@
 #SBATCH --mail-user=til.birnstiel@lmu.de
 #SBATCH --export=NONE 
 #SBATCH --time=24:00:00
-
 source /etc/profile.d/modules.sh
 module load gcc	
+
+export OMP_NUM_THREADS = 1
+export NUMBA_NUM_THREADS = 1
+
 python model.py

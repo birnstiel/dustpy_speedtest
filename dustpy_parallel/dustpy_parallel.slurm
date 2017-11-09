@@ -14,5 +14,8 @@
 
 source /etc/profile.d/modules.sh
 module load gcc	
+
 export OMP_NUM_THREADS=12
+export NUMBA_NUM_THREADS = 12
+
 python model.py
